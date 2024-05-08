@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+#menuTopo{
+    background-image: url(./img/background.svg);
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+#logo{
+    padding: 56px;
+}
+
+#tituloMenu{
+    margin-left: 172px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+#textoMenu{
+    margin-left: 172px;
+    padding-bottom: 151px;
+}
+
+#menuInformacao{
+    background-color: #EAECE5 ;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 64px 171px ;
+    align-items: center;
+}
+
+#imgInformacao{
+    margin-right: 16px;
+}
+
+.textoInformacao{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#menuVideo{
+    padding: 80px 0px 80px 171px;
+    display: grid;
+    grid-auto-flow: column; 
+}
+
+#tituloVideo{
+    font-size: 32px;
+    color: #247BA0;
+    line-height: 48px;
+}
+
+#textoVideo{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#menuCarrosel{
+    text-align: center;
+    background-color:#247BA0;
+    padding: 80px;
+}
+
+#tituloCarrosel{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+#carrosel{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+
+.seta{
+    cursor: pointer;
+    width: 20px;
+    height: 36px;
+    
+}
+
+ .imagemCarrosel{
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+
+ #seta-esquerda{
+    display: none;
+   
+ }
+
+ #leonardo{
+    display: none;
+ }
+
+ form{
+    text-align: center;
+    font-size:15px;
+    color: #383838;
+    margin-top: 32px;
+ }
+
+ form h1{
+    margin-bottom: 42px;
+ }
+
+ input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+}
+
+ input{
+    width: 413px;
+    background-color: #eaece5;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+ }
+
+form button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+
+    width: 335px;
+    padding: 14px 20px;
+
+    background-color: #247BA0;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: background-color 0.6s, font-size 0.6s, padding 0.6s, transform 0.6s;
+ }
+
+ form button:hover{
+    background-color: #145670;
+    font-size: 20px;
+    padding: 17px 25px;
+    box-shadow: 0px 15px 20px #05103081;
+    transform: translateY(-20%);
+    transition: 0.6s;
+ }
